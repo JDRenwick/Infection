@@ -1,9 +1,21 @@
 {
-     "name": "Infection",
-     "description": "simple game with socket.io",
-     "version": "0.0.1",
-     "dependencies": {
-        "express": "2.4.6",
-        "socket.io": "0.8.4"
-     }
+  "name": "Infetion",
+  "version": "0.0.0",
+  "description": "First sockets app",
+  "main": "web.js",
+  "dependencies": {
+    "express": "~2.4.7",
+    "socket.io": "~0.8.4",
+    "logfmt": "~0.20.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Infection",
+    "sockets"
+  ],
+  "author": "James Renwick",
+  "license": "ISC"
 }
