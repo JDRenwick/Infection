@@ -31,6 +31,8 @@ var server = http.createServer(function(request, response){
 
 server.listen(8080);*/
 
+
+// version 0.0.1
 var http = require("http"),
 url = require("url"),
 path = require("path"),
